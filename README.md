@@ -14,3 +14,4 @@
    `npx tailwindcss init`
 6. use custom font
    - import Nunito font style in tailwind.config.js
+   - use in class
