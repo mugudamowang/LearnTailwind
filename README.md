@@ -34,3 +34,5 @@
    - use @apply to organizate common part of style
 12. add icons
 13. add hover state
+14. add menu
+15. add transitions and animations
