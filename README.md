@@ -30,3 +30,6 @@
    - make a badge
    - use @applay directive
 10. add a grid layout comfortably
+11. make a button.
+   - use @apply to organizate common part of style
+12. add icons
