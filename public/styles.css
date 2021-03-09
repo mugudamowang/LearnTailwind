@@ -17023,6 +17023,7 @@ video {
 
 .badge{
   position: absolute;
+  padding: 0.25rem;
   top: 0;
   --bg-opacity: 1;
   background-color: #E2E2D5;
