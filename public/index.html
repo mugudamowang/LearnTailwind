@@ -10,109 +10,115 @@
 </head>
 
 <body class="text-gray-700 font-body">
+    <div class="grid md:grid-cols-3">
+        <!-- content warpper -->
 
-    <header>
-        <nav>
-            <div>
-                <h1 class="text-primary font-bold uppercase p-4 border-b">
-                    <a href="/">Food Ninja</a>
-                </h1>
-            </div>
-            <ul>
-                <li class="text-gray-900 font-bold">
-                    <a href="#">
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>About</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>Contact</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="px-16 py-6 bg-gray-100">
-
-        <div class="text-orange-500 flex justify-center md:justify-end">
-            <a href="#">Log in</a>
-            <a href="#" class="ml-2">Sign up </a>
-        </div>
-
-        <div class="flex items-baseline justify-start">
-            <div class="bg-red-500 h-4 w-6"></div>
-            <div class="bg-blue-500 h-6 w-6"></div>
-            <div class="bg-green-500 h-8 w-6"></div>
-        </div>
-
-        <header>
-            <h2 class="text-gray-900 text-6xl font-semibold">Recipes</h2>
-            <h3 class="text-2xl text-secondary-100">For Ninjas</h3>
+        <header class="md:col-span-1">
+            <nav>
+                <div>
+                    <h1 class="text-primary font-bold uppercase p-4 border-b">
+                        <a href="/">Food Ninja</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li class="text-gray-900 font-bold">
+                        <a href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
+        <!-- end header for page -->
 
-        <section>
-            <h4 class="font-bold mt-12 pb-2 border-b border-gary-200" >lastedt Recipes</h4>
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
 
-
-            <div class="mt-8">
-                <!-- card go here-->
-                <div class="card">
-                    <img src="https://picsum.photos/400/400
-                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">5 Bean Chilli Stew</span>
-                        <span class="block text-gray-500">Recipe by Mario</span>
-                    </div>
-                    <div class="badge">
-                        <span>25 mins</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://picsum.photos/400/400
-                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">5 Bean Chilli Stew</span>
-                        <span class="block text-gray-500">Recipe by Mario</span>
-                    </div>
-                    <div class="badge">
-                        <span>25 mins</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://picsum.photos/400/400
-                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
-                    <div class="m-4">
-                        <span class="font-bold">5 Bean Chilli Stew</span>
-                        <span class="block text-gray-500">Recipe by Mario</span>
-                    </div>
-                    <div class="badge">
-                        <span>25 mins</span>
-                    </div>
-                </div>
+            <div class="text-orange-500 flex justify-center md:justify-end">
+                <a href="#">Log in</a>
+                <a href="#" class="ml-2">Sign up </a>
             </div>
 
-
-
-            <h4 class="font-bold mt-12 pb-2 border-b border-gary-200">Most Popular</h4>
-
-            
-            <div>
-                <!-- card go here -->
+            <div class="flex items-baseline justify-start">
+                <div class="bg-red-500 h-4 w-6"></div>
+                <div class="bg-blue-500 h-6 w-6"></div>
+                <div class="bg-green-500 h-8 w-6"></div>
             </div>
 
-            <div class="flex justify-center">
-                <div>load more</div>
-            </div>
-        </section>
+            <header>
+                <h2 class="text-gray-900 text-6xl font-semibold">Recipes</h2>
+                <h3 class="text-2xl text-secondary-100">For Ninjas</h3>
+            </header>
 
-    </main>
+            <section>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gary-200">lastedt Recipes</h4>
 
+
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
+
+                    <!-- card go here-->
+                    <div class="card">
+                        <img src="https://picsum.photos/400/400
+                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chilli Stew</span>
+                            <span class="block text-gray-500">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/400
+                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chilli Stew</span>
+                            <span class="block text-gray-500">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/400
+                    " alt="re1" class="w-full h-32 s:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chilli Stew</span>
+                            <span class="block text-gray-500">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <h4 class="font-bold mt-12 pb-2 border-b border-gary-200">Most Popular</h4>
+
+
+                <div>
+                    <!-- card go here -->
+                </div>
+
+                <div class="flex justify-center">
+                    <div>load more</div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
 </body>
 
 </html>

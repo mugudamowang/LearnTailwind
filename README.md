@@ -29,3 +29,4 @@
    - make img fill and something other componets
    - make a badge
    - use @applay directive
+10. add a grid layout comfortably
