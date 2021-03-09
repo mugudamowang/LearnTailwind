@@ -15,3 +15,7 @@
 6. use custom font
    - import Nunito font style in tailwind.config.js
    - use in class
+7. use flex layout
+8. use media query to make website responsive in tailwind
+   - setting custom sizes in tailwindcss.config.js
+   - usage: `sm:text-red-500`, it means make text red when screen in small size
