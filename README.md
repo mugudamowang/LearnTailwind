@@ -33,3 +33,4 @@
 11. make a button.
    - use @apply to organizate common part of style
 12. add icons
+13. add hover state
