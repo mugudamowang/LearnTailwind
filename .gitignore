@@ -1,2 +1,6 @@
 node_modules/*
+src/*
+public/*
+
+tailwind.config.js
 tailwind-default.config.js
