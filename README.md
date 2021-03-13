@@ -1,6 +1,5 @@
-## floder
-- public : put in web server
-- - s
+## description
+This a demo for learning Tailwindcss. I learn it follow by a youtuber--Ninja net
 
 ## Steps
 1. build tailwindcss source file in public floder. ( use@1.4.6 )
